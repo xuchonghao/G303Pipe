@@ -29,6 +29,7 @@ public class ModelGuideDialog444 extends JDialog {
     //private int swCount = 1;
     private int firstCount ;
     int indexOfSw;
+    int preDUVLNum;
     ArrayList<Element> listElementOfSwPre = null;
     ArrayList<Element> arr = null;
     Element preSwLinkEnd = null;
@@ -37,6 +38,7 @@ public class ModelGuideDialog444 extends JDialog {
         super(parent, modal);
         nowModel = guideModel;
         indexOfSw = GuideModel.INDEXOFSW++;
+        preDUVLNum = GuideModel.PREDUVLNUM;
         //swCount = count;//交换机的数量
         firstCount = guideModel.getNumOfSW();
         this.preSwLinkEnd = preSwLinkEnd;
@@ -338,7 +340,20 @@ public class ModelGuideDialog444 extends JDialog {
         pack();
     }
 
+    private static DU findDesDu(GuideModel guideModel,String spmId){
+        DU desDu = null;
+        Queue<DU> duList = guideModel.getDuList();
+        int duNum  = guideModel.getNumOfDU();
 
+        for(int i=0;i<duNum;i++){
+            DU du = duList.remove();//看看有没有
+            String duId = du.getId().substring(0,4);
+            if(duId.equals(spmId))//如果相等就是那个，然后再创建分区，确定这个分区的链路数量再创建
+                desDu = du;
+            duList.add(du);
+        }
+        return desDu;
+    }
     private void jButton2ActionPerformed(ActionEvent evt) {//下一步
         String swId = sw.getId();
         ArrayList<Element> arrIn = sw.getIn();
@@ -355,15 +370,24 @@ public class ModelGuideDialog444 extends JDialog {
         //System.out.println(GuideModel.swCount);
        // Element swLinkEnd2 = null;
         String str = null;
+
         for(int i=0;i<arrOut.size();i++){//数组 *先* 添加的DU 后添加的SW String str:arrOut
             str = arrOut.get(i);
             //System.out.println("out"+str);
             if("RES".equals(str.substring(0,3))){//添加DU
                 Element swLinkEnd = listOfSWLinkEnd.get(i);
-                System.out.println("");
-                //添加第i个DU
-                ModelFactory2.addDU(nowModel,net,str,2400 + indexOfSw*1500,315+indexOfSw*500,swLinkEnd);//当前DU的名字必须作为参数,DU前自动添加链路
+                System.out.println("i:"+i + ",indexOfSw:"+indexOfSw);
+                DU desDu = findDesDu(nowModel,str);
 
+                //添加第i个DU
+                ModelFactory2.addDU(nowModel,net,desDu,2400 + indexOfSw*1500,315+preDUVLNum*60 + i*500,swLinkEnd);//当前DU的名字必须作为参数,DU前自动添加链路
+                int sum = 0;
+                ArrayList<Paratition> paratitions = desDu.getParList();
+                int parNUm = desDu.getNumOfPar();
+                for(int t=0;t<paratitions.size();t++){
+                    sum += paratitions.get(t).getVLCount();
+                }
+                preDUVLNum = sum + parNUm;
             }else if("SW".equals(str.substring(0,2)) && (GuideModel.swCount--)>1){//    SW3,当这里是最后一个SW的时候才跳到5
                 //swCount--;//交换机数量
                 //如果是最初的数量直接结束

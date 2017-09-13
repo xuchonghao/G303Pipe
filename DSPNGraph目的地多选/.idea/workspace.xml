@@ -31,51 +31,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ModelFactory2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/factory/ModelFactory2.java">
+      <file leaf-file-name="ModelGuideDialog444.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog444.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="317" column="0" lean-forward="true" selection-start-line="317" selection-start-column="0" selection-end-line="317" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
               <folding>
-                <element signature="docComment;class#ModelFactory2#0" expanded="false" />
-                <element signature="method#buildHead#0;class#ModelFactory2#0" expanded="false" />
-                <element signature="method#buildModel#0;class#ModelFactory2#0" expanded="false" />
-                <element signature="method#addArc#0;class#ModelFactory2#0" expanded="false" />
-                <element signature="method#findDesDu#0;class#ModelFactory2#0" expanded="false" />
-                <element signature="method#findAllParVL#0;class#ModelFactory2#0" expanded="false" />
-                <element signature="e#8290#8299#0" expanded="true" />
-                <element signature="e#8359#8368#0" expanded="true" />
-                <element signature="docComment;method#addVLs#0;class#ModelFactory2#0" expanded="false" />
-                <element signature="method#addVLs#0;class#ModelFactory2#0" expanded="false" />
-                <element signature="e#13081#13090#0" expanded="true" />
-                <element signature="e#13144#13153#0" expanded="true" />
-                <element signature="method#addParatition#0;class#ModelFactory2#0" expanded="false" />
-                <element signature="method#addSPM#0;class#ModelFactory2#0" expanded="false" />
-                <element signature="method#addSPMLink#0;class#ModelFactory2#0" expanded="false" />
-                <element signature="method#addLink#0;class#ModelFactory2#0" expanded="false" />
-                <element signature="method#addSwitch#0;class#ModelFactory2#0" expanded="false" />
-                <element signature="docComment;method#buildPlace#0;class#ModelFactory2#0" expanded="false" />
-                <element signature="method#buildPlace#0;class#ModelFactory2#0" expanded="false" />
-                <element signature="docComment;method#buildTransition#0;class#ModelFactory2#0" expanded="false" />
-                <element signature="method#buildTransition#0;class#ModelFactory2#0" expanded="false" />
-                <element signature="method#setListOfSpmLinkEnd#0;class#ModelFactory2#0" expanded="false" />
-                <element signature="method#ModelFactory2#0;class#ModelFactory2#0" expanded="false" />
-                <marker date="1505222733495" expanded="false" signature="32819:35585" ph="{...}" />
-                <marker date="1505222733495" expanded="false" signature="35696:36371" ph="{...}" />
-                <marker date="1505222733495" expanded="false" signature="36510:37943" ph="{...}" />
-                <marker date="1505222733495" expanded="false" signature="38026:46115" ph="{...}" />
-                <marker date="1505222733495" expanded="false" signature="46227:51444" ph="{...}" />
-                <marker date="1505222733495" expanded="false" signature="51525:55863" ph="{...}" />
+                <element signature="docComment;class#ModelGuideDialog444#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModelGuideDialog444.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog444.java">
+      <file leaf-file-name="GuideModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/bean/GuideModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="362" column="37" lean-forward="false" selection-start-line="362" selection-start-column="37" selection-end-line="362" selection-end-column="37" />
+            <state relative-caret-position="237">
+              <caret line="48" column="30" lean-forward="false" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -152,10 +124,10 @@
         <option value="$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog23.java" />
         <option value="$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog4.java" />
         <option value="$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog44.java" />
-        <option value="$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/bean/GuideModel.java" />
         <option value="$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog32.java" />
-        <option value="$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog444.java" />
         <option value="$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/factory/ModelFactory2.java" />
+        <option value="$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/bean/GuideModel.java" />
+        <option value="$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog444.java" />
       </list>
     </option>
   </component>
@@ -166,10 +138,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="180" />
-    <option name="y" value="-14" />
+    <option name="x" value="-87" />
+    <option name="y" value="-21" />
     <option name="width" value="1452" />
-    <option name="height" value="855" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -186,6 +158,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,67 +179,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pipe" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DSPNGraph目的地多选" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSPNGraph目的地多选" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pipe" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSPNGraph目的地多选" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSPNGraph目的地多选" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pipe" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSPNGraph目的地多选" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSPNGraph目的地多选" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pipe" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
-              <item name="newwidges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSPNGraph目的地多选" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSPNGraph目的地多选" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pipe" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
-              <item name="newwidges" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSPNGraph目的地多选" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSPNGraph目的地多选" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pipe" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
-              <item name="newwidges" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSPNGraph目的地多选" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSPNGraph目的地多选" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pipe" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
-              <item name="newwidges" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -804,11 +722,12 @@
       <workItem from="1505006872538" duration="11098000" />
       <workItem from="1505055710524" duration="917000" />
       <workItem from="1505091290440" duration="67093000" />
+      <workItem from="1505268963044" duration="6409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207928000" />
+    <option name="totallyTimeSpent" value="214337000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -832,9 +751,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23853211" sideWeight="0.6402778" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.013194445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896462" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -851,6 +769,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="6.9444446E-4" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896462" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -865,7 +784,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog444.java</url>
-          <line>321</line>
+          <line>323</line>
           <properties class="pipe.gui.widgets.newwidges.view.ModelGuideDialog444">
             <option name="EMULATED" value="true" />
           </properties>
@@ -886,6 +805,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/factory/ModelFactory2.java</url>
+          <line>587</line>
+          <properties class="pipe.gui.widgets.newwidges.factory.ModelFactory2" method="addSwitch">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Pipe.java</url>
@@ -942,7 +869,7 @@
           <option name="timeStamp" value="62" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="66" />
+      <option name="time" value="67" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1106,7 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,7 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1163,19 +1088,12 @@
         <state relative-caret-position="295">
           <caret line="513" column="8" lean-forward="true" selection-start-line="513" selection-start-column="8" selection-end-line="513" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog31.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="202" column="36" lean-forward="false" selection-start-line="202" selection-start-column="36" selection-end-line="202" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog31.java" />
     <entry file="file://$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/bean/DUPar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1197,10 +1115,10 @@
         <state relative-caret-position="240">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="false" />
+            <element signature="e#558#559#0" expanded="false" />
+            <element signature="e#619#620#0" expanded="false" />
+            <element signature="e#657#658#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1210,10 +1128,10 @@
         <state relative-caret-position="107">
           <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           <folding>
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="false" />
+            <element signature="e#697#698#0" expanded="false" />
+            <element signature="e#951#952#0" expanded="false" />
+            <element signature="e#990#991#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1303,11 +1221,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#enterFastMode#0;class#PipeApplicationModel#0" expanded="false" />
-            <element signature="method#restoreMode#0;class#PipeApplicationModel#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1315,7 +1228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1363,19 +1275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/bean/GuideModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-          <folding>
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog32.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
@@ -1395,48 +1294,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog444.java">
+    <entry file="file://$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/bean/GuideModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="362" column="37" lean-forward="false" selection-start-line="362" selection-start-column="37" selection-end-line="362" selection-end-column="37" />
+        <state relative-caret-position="237">
+          <caret line="48" column="30" lean-forward="false" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/factory/ModelFactory2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="317" column="0" lean-forward="true" selection-start-line="317" selection-start-column="0" selection-end-line="317" selection-end-column="0" />
+        <state relative-caret-position="469">
+          <caret line="821" column="0" lean-forward="true" selection-start-line="821" selection-start-column="0" selection-end-line="821" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#ModelFactory2#0" expanded="false" />
             <element signature="method#buildHead#0;class#ModelFactory2#0" expanded="false" />
+            <element signature="e#2480#2489#0" expanded="true" />
             <element signature="method#buildModel#0;class#ModelFactory2#0" expanded="false" />
             <element signature="method#addArc#0;class#ModelFactory2#0" expanded="false" />
-            <element signature="method#findDesDu#0;class#ModelFactory2#0" expanded="false" />
-            <element signature="method#findAllParVL#0;class#ModelFactory2#0" expanded="false" />
-            <element signature="e#8290#8299#0" expanded="true" />
-            <element signature="e#8359#8368#0" expanded="true" />
+            <element signature="method#addDUParatition#0;class#ModelFactory2#0" expanded="false" />
+            <element signature="e#8294#8303#0" expanded="true" />
+            <element signature="e#8363#8372#0" expanded="true" />
             <element signature="docComment;method#addVLs#0;class#ModelFactory2#0" expanded="false" />
             <element signature="method#addVLs#0;class#ModelFactory2#0" expanded="false" />
-            <element signature="e#13081#13090#0" expanded="true" />
-            <element signature="e#13144#13153#0" expanded="true" />
+            <element signature="e#13204#13213#0" expanded="true" />
+            <element signature="e#13267#13276#0" expanded="true" />
             <element signature="method#addParatition#0;class#ModelFactory2#0" expanded="false" />
             <element signature="method#addSPM#0;class#ModelFactory2#0" expanded="false" />
             <element signature="method#addSPMLink#0;class#ModelFactory2#0" expanded="false" />
             <element signature="method#addLink#0;class#ModelFactory2#0" expanded="false" />
-            <element signature="method#addSwitch#0;class#ModelFactory2#0" expanded="false" />
+            <element signature="e#22352#22361#0" expanded="true" />
             <element signature="docComment;method#buildPlace#0;class#ModelFactory2#0" expanded="false" />
             <element signature="method#buildPlace#0;class#ModelFactory2#0" expanded="false" />
             <element signature="docComment;method#buildTransition#0;class#ModelFactory2#0" expanded="false" />
             <element signature="method#buildTransition#0;class#ModelFactory2#0" expanded="false" />
             <element signature="method#setListOfSpmLinkEnd#0;class#ModelFactory2#0" expanded="false" />
             <element signature="method#ModelFactory2#0;class#ModelFactory2#0" expanded="false" />
-            <marker date="1505222733495" expanded="false" signature="32819:35585" ph="{...}" />
-            <marker date="1505222733495" expanded="false" signature="35696:36371" ph="{...}" />
-            <marker date="1505222733495" expanded="false" signature="36510:37943" ph="{...}" />
-            <marker date="1505222733495" expanded="false" signature="38026:46115" ph="{...}" />
-            <marker date="1505222733495" expanded="false" signature="46227:51444" ph="{...}" />
-            <marker date="1505222733495" expanded="false" signature="51525:55863" ph="{...}" />
+            <marker date="1505306369276" expanded="false" signature="32942:35708" ph="{...}" />
+            <marker date="1505306369276" expanded="false" signature="35819:36494" ph="{...}" />
+            <marker date="1505306369276" expanded="false" signature="36633:38066" ph="{...}" />
+            <marker date="1505306369276" expanded="false" signature="38149:46238" ph="{...}" />
+            <marker date="1505306369276" expanded="false" signature="46350:51567" ph="{...}" />
+            <marker date="1505306369276" expanded="false" signature="51648:55986" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog444.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+          <folding>
+            <element signature="docComment;class#ModelGuideDialog444#0" expanded="false" />
           </folding>
         </state>
       </provider>

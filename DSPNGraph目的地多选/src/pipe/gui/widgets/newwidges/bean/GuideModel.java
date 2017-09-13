@@ -46,6 +46,7 @@ public class GuideModel {
 
     private  int duParNum = 1;
     public static int INDEXOFSW = 0;
+    public static int PREDUVLNUM = 0;
 
     /*public Queue<Paratition> getParList() {
              return parList;

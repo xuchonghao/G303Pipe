@@ -199,7 +199,7 @@ public class ModelFactory2 {
     }
 
     private static int VLNUMBER = 0;
-    private static DU findDesDu(GuideModel guideModel,String spmId){
+    /*private static DU findDesDu(GuideModel guideModel,String spmId){
         DU desDu = null;
         Queue<DU> duList = guideModel.getDuList();
         int duNum  = guideModel.getNumOfDU();
@@ -212,7 +212,7 @@ public class ModelFactory2 {
             duList.add(du);
         }
         return desDu;
-    }
+    }*/
     private static ArrayList<VLInfo> findAllParVL(GuideModel guideModel,String parId){
         Queue<VLInfo> infoList = guideModel.getVlList();
         ArrayList<VLInfo> vlInfoList = new ArrayList<>();//用于保存到达该分区的源处的VL
@@ -267,7 +267,8 @@ public class ModelFactory2 {
         int k = 190;
         int w = 10;
         //2、创建调度单元
-        String transitionId0 = parId + "_LoseResourcesT";
+        if(vlNum > 0){
+            String transitionId0 = parId + "_LoseResourcesT";
         Element transition0 = buildTransition(net,transitionId0,1,5,0,x+k*2,y+w);
         String transitionId1 = parId + "_SchedulePeriod";
         Element transition1 = buildTransition(net,transitionId1,1,5,0,x+k*4-20,y+w);
@@ -277,7 +278,7 @@ public class ModelFactory2 {
         String placeId1 = parId + "_GetResources";
         Element place1 = buildPlace(net, placeId1, 1, x+k*3, y+w);
         String placeId2 = parId + "_Wait";
-        Element place2 = buildPlace(net, placeId2, 1, x+k*5-35, y+w);
+        Element place2 = buildPlace(net, placeId2, 1, x+k*5-45, y+w);
         addArc(transition0,place0,net,1,false,false);
         addArc(place1,transition0,net,1,false,false);
         addArc(transition1,place1,net,1,false,false);
@@ -291,13 +292,15 @@ public class ModelFactory2 {
            addArc(place1,Ttench,net,1,false,false);
            addArc(Ttench,place1,net,1,false,false);
         }
+        }
+
 
     }
-    public static void addDU(GuideModel guideModel,Element net,String duName,int x,int y,Element swLinkEnd){
+    public static void addDU(GuideModel guideModel,Element net,DU desDu,int x,int y,Element swLinkEnd){
         //第一步：确定是哪一个DU
-        DU desDu = findDesDu(guideModel,duName);
+        //DU desDu = findDesDu(guideModel,duName);
         ArrayList<Paratition> parList = desDu.getParList();
-
+        String duName = desDu.getId();
         //第二步、添加接收端的第一个库所
         String dus = duName + "_";
         String placeId0 = dus + "InQueue";
@@ -312,7 +315,7 @@ public class ModelFactory2 {
 
             //1、确定到达分区的所有链路
             vlInfoList = findAllParVL(guideModel,parId);
-
+            par.setVLCount(vlInfoList.size());
             //2、添加一个接收端分区
             addDUParatition(vlInfoList,place0,parId,x+420,y);
 
@@ -633,7 +636,7 @@ public class ModelFactory2 {
            // String placeId2 = spmId + "sendM_" + j;
             //Element place2 = buildPlace(net, placeId2, 0, x+660, 800);
            // addArc(transition1,place2,net,1,false,false);//TODO 不用改
-            Element linkEndElement = addLink(net,x + 770,y-300+j*500,spmId+"L",place2);
+            Element linkEndElement = addLink(net,x + 770,y-300+j*700,spmId+"L",place2);
 
             listOfSWLinkEnd.add(linkEndElement);
             j++;
