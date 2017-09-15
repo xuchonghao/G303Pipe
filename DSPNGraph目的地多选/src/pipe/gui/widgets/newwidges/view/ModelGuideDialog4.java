@@ -192,7 +192,7 @@ public class ModelGuideDialog4 extends JDialog {
 
         jLabel1.setText("第七步");
 
-        jLabel2.setText("  补全航电消息参数(如航电消息类型、生成周期)、虚链路参数信息（如虚链路ID、BAG、帧大小）、分区缓存大小及接收端系统");
+        jLabel2.setText("  补全分区消息参数(如分区消息传输类型、生成周期、包大小)、虚链路参数信息（如虚链路ID、BAG）、分区缓存大小及接收端系统");
 
         //jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icon_guide.png"))); // NOI18N
         //jLabel3.setText(" ");
@@ -249,12 +249,12 @@ public class ModelGuideDialog4 extends JDialog {
         jLabel5.setText("编号");
         jLabel7.setText("VL_ID");
         jLabel8.setText("航电消息类型");
-        jLabel9.setText("航电消息生成周期(ms)");
+        jLabel9.setText("分区传输周期(ms)");
         jLabe20.setText(" BAG(ms)");
-        jLabe21.setText("帧大小(Byte)");
-        jLabe211.setText("缓存帧的数量(个)");
-        jLabe22.setText("  源 ");
-        jLabe23.setText("目 的");
+        jLabe21.setText("包大小(Byte)");
+        jLabe211.setText("SPM输出缓存帧的数量(个)");
+        jLabe22.setText("源端系统分区");
+        jLabe23.setText("目的端系统分区");
         //这块一下把十个都设置好吧  然后 这里4-10的响应函数 没调整呢 注意
 
 
@@ -403,7 +403,7 @@ public class ModelGuideDialog4 extends JDialog {
         gp4.addComponent(jLabel9);
         for(int i=0; i<num; i++)
         {
-            jTextFieldArray4[i].setText("1");
+            jTextFieldArray4[i].setText("100");
             gp4.addComponent(jTextFieldArray4[i]);
         }
 //            gp4.addComponent(jTextField4_1,javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE);
@@ -422,7 +422,7 @@ public class ModelGuideDialog4 extends JDialog {
         gppp.addComponent(jLabe21);
         for(int i=0; i<num; i++)
         {
-            jTextFieldArray6[i].setText("1518");
+            jTextFieldArray6[i].setText("64");
             gppp.addComponent(jTextFieldArray6[i]);
         }
 
@@ -459,7 +459,7 @@ public class ModelGuideDialog4 extends JDialog {
 //            gp5.addComponent(jButton5_3);
 
         jPanel2Layout.setHorizontalGroup(jPanel2Layout.createSequentialGroup()
-                .addGroup(gp1).addGap(30).addGroup(gp2).addGap(30).addGroup(gp3).addGap(30).addGroup(gp4).addGap(30).addGroup(gpp).addGap(30).addGroup(gppp).addGap(30).addGroup(g211).addGap(30).addGroup(g4p).addGap(30).addGroup(g5p));//.addGap(30).addGroup(gp5));
+                .addGroup(gp1).addGap(30).addGroup(gp2).addGap(30).addGroup(gp3).addGap(30).addGroup(gppp).addGap(30).addGroup(gp4).addGap(30).addGroup(gpp).addGap(30).addGroup(g211).addGap(30).addGroup(g4p).addGap(30).addGroup(g5p));//.addGap(30).addGroup(gp5));
 
 
         GroupLayout.ParallelGroup gp6 = jPanel2Layout.createParallelGroup(GroupLayout.Alignment.BASELINE);

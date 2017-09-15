@@ -26,7 +26,7 @@ public class Graph {
     public VexNode getVexNode(String data){//这里怎么没有显示错误！
 
         for(int i=0;i<vexArray.size();i++){
-             System.out.println(data == vexArray.get(i).data);
+             //System.out.println(data == vexArray.get(i).data);
             if(data == vexArray.get(i).data)//
                 return vexArray.get(i);
         }

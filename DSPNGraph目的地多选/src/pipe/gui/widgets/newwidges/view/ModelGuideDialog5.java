@@ -93,7 +93,7 @@ public class ModelGuideDialog5 extends JDialog {
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel1.setText("第七步");
+        jLabel1.setText("第十步");
 
         jLabel2.setText("  设置每个SPM中VL的排列顺序");
 
