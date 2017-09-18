@@ -41,7 +41,7 @@ import java.util.LinkedList;
  */
 public class GSPNNew
         extends GSPN
-        implements IModule
+       // implements IModule
 {
 
     private static final String MODULE_NAME = "GSPN Analysis";

@@ -28,7 +28,7 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
 public class Comparison
-        implements IModule
+       // implements IModule
 {
 
     // Main Frame

@@ -32,7 +32,7 @@ import java.util.Arrays;
  * Classification class implements petri net classification
  */
 public class Classification
-        implements IModule
+       // implements IModule
 {
 
     private static final String MODULE_NAME = "Classification";

@@ -31,118 +31,87 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AverageDelayModule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pipe/DSPNModules/AverageDelayModule.java">
+      <file leaf-file-name="Classification.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pipe/modules/classification/Classification.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9612">
-              <caret line="390" column="51" lean-forward="false" selection-start-line="390" selection-start-column="51" selection-end-line="390" selection-end-column="51" />
+            <state relative-caret-position="189">
+              <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PetriNetView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pipe/views/PetriNetView.java">
+      <file leaf-file-name="Comparison.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pipe/modules/comparison/Comparison.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59805">
-              <caret line="2505" column="37" lean-forward="false" selection-start-line="2505" selection-start-column="37" selection-end-line="2505" selection-end-column="37" />
+            <state relative-caret-position="162">
+              <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GSPN.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pipe/modules/gspn/GSPN.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
-                <element signature="method#removePetriNetObject#0;class#PetriNetView#0" expanded="false" />
-                <element signature="method#stateGroupAlreadyExists#0;class#PetriNetView#0" expanded="false" />
-                <element signature="method#emptyPNML#0;class#PetriNetView#0" expanded="false" />
-                <element signature="method#places#0;class#PetriNetView#0" expanded="false" />
-                <element signature="method#numberOfPlaces#0;class#PetriNetView#0" expanded="false" />
-                <element signature="method#marking#0;class#PetriNetView#0" expanded="false" />
-                <element signature="method#labels#0;class#PetriNetView#0" expanded="false" />
-                <element signature="method#markingRateParameters#0;class#PetriNetView#0" expanded="false" />
-                <element signature="method#getTransitionViews#0;class#PetriNetView#0" expanded="false" />
-                <element signature="method#numberOfTransitions#0;class#PetriNetView#0" expanded="false" />
-                <element signature="method#arcs#0;class#PetriNetView#0" expanded="false" />
-                <element signature="method#getInitialMarkingVector#0;class#PetriNetView#0" expanded="false" />
-                <element signature="method#getCurrentMarkingVector#0;class#PetriNetView#0" expanded="false" />
-                <element signature="method#getCapacityMatrix#0;class#PetriNetView#0" expanded="false" />
-                <element signature="method#getPriorityMatrix#0;class#PetriNetView#0" expanded="false" />
-                <element signature="method#getTimedMatrix#0;class#PetriNetView#0" expanded="false" />
-                <element signature="e#83947#83948#0" expanded="true" />
-                <element signature="e#83982#83983#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pipe/DSPNModules/Test.java">
+      <file leaf-file-name="GSPNNew.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pipe/modules/gspn/GSPNNew.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1107">
-              <caret line="45" column="19" lean-forward="false" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+            <state relative-caret-position="351">
+              <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayOfGraph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pipe/DSPNModules/ArrayOfGraph.java">
+      <file leaf-file-name="GSPNOld.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pipe/modules/gspn/GSPNOld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            <state relative-caret-position="201">
+              <caret line="711" column="2" lean-forward="false" selection-start-line="711" selection-start-column="2" selection-end-line="711" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThroughputModule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pipe/DSPNModules/ThroughputModule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="99" column="20" lean-forward="true" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
               <folding>
-                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#3328#3329#0" expanded="true" />
+                <element signature="e#3362#3363#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindAllPath.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pipe/DSPNModules/FindAllPath.java">
+      <file leaf-file-name="ModuleManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pipe/gui/ModuleManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="151">
+              <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModelGuideDialog5.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog5.java">
+      <file leaf-file-name="ModuleLoader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pipe/gui/ModuleLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2322">
-              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+            <state relative-caret-position="269">
+              <caret line="70" column="46" lean-forward="true" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModelGuideDialog3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12339">
-              <caret line="471" column="53" lean-forward="false" selection-start-line="471" selection-start-column="53" selection-end-line="471" selection-end-column="53" />
-              <folding>
-                <marker date="1505182551909" expanded="false" signature="9901:10007" ph="(FocusAdapter) focusLost(evt) → {" />
-                <marker date="1505182551909" expanded="false" signature="10069:10088" ph="}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModelGuideDialog4.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6453">
-              <caret line="255" column="32" lean-forward="false" selection-start-line="255" selection-start-column="32" selection-end-line="255" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModelGuideDialog44.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog44.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="62" column="38" lean-forward="false" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-              <folding>
-                <element signature="e#1732#1762#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -173,9 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/ModelGuideDialog1.java" />
-        <option value="$PROJECT_DIR$/src/pipe/DSPNModules/AverageQueueLengthModule.java" />
-        <option value="$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/Paratition.java" />
         <option value="$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/MultiComboBox.java" />
         <option value="$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/CustomComboBox.java" />
         <option value="/opt/jdk1.8.0_131/jre/lib/rt.jar!/javax/swing/JComboBox.class" />
@@ -224,6 +190,9 @@
         <option value="$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog5.java" />
         <option value="$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog4.java" />
         <option value="$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog44.java" />
+        <option value="$PROJECT_DIR$/src/pipe/modules/classification/Classification.java" />
+        <option value="$PROJECT_DIR$/src/pipe/modules/comparison/Comparison.java" />
+        <option value="$PROJECT_DIR$/src/pipe/modules/gspn/GSPNNew.java" />
       </list>
     </option>
   </component>
@@ -234,10 +203,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-87" />
+    <option name="x" value="-38" />
     <option name="y" value="-21" />
-    <option name="width" value="1452" />
-    <option name="height" value="876" />
+    <option name="width" value="1378" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -261,6 +230,47 @@
             <path>
               <item name="DSPNGraph目的地多选" type="b2602c69:ProjectViewProjectNode" />
               <item name="DSPNGraph目的地多选" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSPNGraph目的地多选" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSPNGraph目的地多选" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSPNGraph目的地多选" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSPNGraph目的地多选" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pipe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSPNGraph目的地多选" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSPNGraph目的地多选" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pipe" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSPNGraph目的地多选" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSPNGraph目的地多选" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pipe" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSPNGraph目的地多选" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSPNGraph目的地多选" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pipe" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="classification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSPNGraph目的地多选" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSPNGraph目的地多选" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pipe" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="comparison" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -809,12 +819,12 @@
       <workItem from="1505091290440" duration="67093000" />
       <workItem from="1505268963044" duration="6409000" />
       <workItem from="1505352706346" duration="16742000" />
-      <workItem from="1505652276212" duration="67000" />
+      <workItem from="1505652276212" duration="3239000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231146000" />
+    <option name="totallyTimeSpent" value="234318000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -958,64 +968,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pipe/views/TokenView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2384">
-          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pipe/DSPNModules/AverageQueueLengthModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="132" column="40" lean-forward="false" selection-start-line="132" selection-start-column="40" selection-end-line="132" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pipe/utilities/writers/PNMLWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-683">
-          <caret line="615" column="14" lean-forward="false" selection-start-line="615" selection-start-column="14" selection-end-line="615" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pipe/actions/EditAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pipe/views/PipeApplicationView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="408" column="12" lean-forward="false" selection-start-line="408" selection-start-column="12" selection-end-line="408" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pipe/models/PetriNet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pipe/actions/FileAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pipe/models/NormalArc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pipe/models/InhibitorArc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1315,7 +1267,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pipe/DSPNModules/AverageDelayModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9612">
+        <state relative-caret-position="0">
           <caret line="390" column="51" lean-forward="false" selection-start-line="390" selection-start-column="51" selection-end-line="390" selection-end-column="51" />
           <folding />
         </state>
@@ -1333,7 +1285,7 @@
         <state relative-caret-position="459">
           <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding>
-            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1365,21 +1317,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog44.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+          <folding>
+            <element signature="e#1732#1762#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6453">
+        <state relative-caret-position="27">
           <caret line="255" column="32" lean-forward="false" selection-start-line="255" selection-start-column="32" selection-end-line="255" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pipe/gui/widgets/newwidges/view/ModelGuideDialog44.java">
+    <entry file="file://$PROJECT_DIR$/src/pipe/DSPNModules/ThroughputModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="62" column="38" lean-forward="false" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+        <state relative-caret-position="89">
+          <caret line="99" column="20" lean-forward="true" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
           <folding>
-            <element signature="e#1732#1762#0" expanded="true" />
+            <element signature="e#3328#3329#0" expanded="true" />
+            <element signature="e#3362#3363#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pipe/gui/ModuleManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pipe/gui/ModuleLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="70" column="46" lean-forward="true" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pipe/modules/classification/Classification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pipe/modules/comparison/Comparison.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pipe/modules/gspn/GSPN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pipe/modules/gspn/GSPNNew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pipe/modules/gspn/GSPNOld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="711" column="2" lean-forward="false" selection-start-line="711" selection-start-column="2" selection-end-line="711" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
