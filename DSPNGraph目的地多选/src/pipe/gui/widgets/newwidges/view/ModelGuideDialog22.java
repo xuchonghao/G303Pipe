@@ -30,9 +30,9 @@ public class ModelGuideDialog22 extends JDialog {
     private JRadioButton jRadioButton1;
     private JRadioButton jRadioButton2;
     private JRadioButton jRadioButton3;
-    private JRadioButton jRadioButton4;
-    private JRadioButton jRadioButton5;
-    private JRadioButton jRadioButton6;
+    //private JRadioButton jRadioButton4;
+    //private JRadioButton jRadioButton5;
+    //private JRadioButton jRadioButton6;
 
     private JSeparator jSeparator1;
     private JTextField jTextField1;
@@ -64,9 +64,9 @@ public class ModelGuideDialog22 extends JDialog {
         jRadioButton1 = new JRadioButton();
         jRadioButton2 = new JRadioButton();
         jRadioButton3 = new JRadioButton();
-        jRadioButton4 = new JRadioButton();
-        jRadioButton5 = new JRadioButton();
-        jRadioButton6 = new JRadioButton();
+        //jRadioButton4 = new JRadioButton();
+        //jRadioButton5 = new JRadioButton();
+        //jRadioButton6 = new JRadioButton();
 
         jLabel5 = new JLabel();
         jTextField1 = new JTextField();
@@ -186,7 +186,7 @@ public class ModelGuideDialog22 extends JDialog {
                                                 .addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.TRAILING)
                                                         .addComponent(jRadioButton1)
                                                         .addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
-                                                                .addComponent(jRadioButton4)
+                                                                //.addComponent(jRadioButton4)
                                                                ))
                                                 .addGap(18, 18, 18)
                                                 .addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
@@ -195,9 +195,10 @@ public class ModelGuideDialog22 extends JDialog {
                                                                 .addGap(18, 18, 18)
                                                                 .addComponent(jRadioButton3))
                                                         .addGroup(jPanel2Layout.createSequentialGroup()
-                                                                .addComponent(jRadioButton5)
+                                                               // .addComponent(jRadioButton5)
                                                                 .addGap(18, 18, 18)
-                                                                .addComponent(jRadioButton6))
+                                                               // .addComponent(jRadioButton6)
+                                                                )
                                                         .addGroup(jPanel2Layout.createSequentialGroup()
 
                                                                 .addGap(18, 18, 18)
@@ -214,9 +215,10 @@ public class ModelGuideDialog22 extends JDialog {
                                         .addComponent(jRadioButton1))
                                 .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
-                                        .addComponent(jRadioButton4)
-                                        .addComponent(jRadioButton5)
-                                        .addComponent(jRadioButton6))
+                                       // .addComponent(jRadioButton4)
+                                        //.addComponent(jRadioButton5)
+                                        //.addComponent(jRadioButton6)
+                                        )
                                 .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
                                        )
